@@ -1,21 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Ball.css">
-    <title>Rolling Ball</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<!-- =====BOX ICONS===== -->
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+<title>Portfolio website complete</title>
 </head>
 <body>
-    <div class="container">
-        <div class="ball">
-            
+<!--===== HEADER =====-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">Himani</a>
         </div>
-    </div>
-    <div class="container">
-        <div class="ball">
-            
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#academics" class="nav__link">Academics</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
         </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Himani</span><br> Product Manager</h1>
+            <a href="assets/Himani Urmila Gaikwad resume revised (1).pdf" class="button" download="Himani Gaikwad Resume" target="_blank">My Resume</a>     
+        </div>
+
+        <div class="home__social">
+            <a href="https://www.linkedin.com/in/himani-gaikwad/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/himani-gaikwad-dax" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            <a href="https://himanigaikwad.blogspot.com/" target="_blank" class="home__social-icon"><i class='bx bxl-blogger'></i></a>
+        </div>
+
+        <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    <image class="home__blob-img" x="50" y="110" href="assets/img/himani.png"/>
+                </g>
+            </svg>
+        </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="work__container bd-grid">
+            <div class="card">
+                <div class="work-name">
+                    <span>Data Axle</span>
+                    <span>Associate Software Engineer</span>
+                </div>
+                <div class="content"> 
+                    <ol class="list" type="I">
+                        <li>Technical Proficiency and Client Engagement</li>
+                            <ul class="sub-list">
+                                <li>Took ownership of tasks, consistently delivering production-ready, high-performance code with minimal bugs.</li>
+                                <li>Engaged clients to understand their business challenges, employing data-driven solutions that reduced manual efforts by 65% and cut costs by 25%.</li>
+                            </ul>
+                        <li>Ruby on Rails Expertise and Agile Project Delivery</li>
+                            <ul class="sub-list">
+                                <li>Developed expertise in Ruby on Rails, solidifying a strong technical foundation for potential leadership roles.</li>
+                                <li>Proficiently managed project delivery in an agile environment, ensuring accurate data processing and loading while following agile methodologies like sprint planning and retrospectives.</li>
+                            </ul>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <div class="work-name">
+                    <span>Zensar Technologies</span>
+                    <span>Employee Skill Development Internship</span>
+                </div>
+                <div class="content"> 
+                    <ol type="I">
+                        <li>Experience of hands-on skills training and development of technical, verbal and problem-solving abilities.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <div class="work-name">
+                    <span>MRND Labs Pvt. Ltd.text</span>
+                    <span>Python Developer Internship</span>
+                </div>
+                <div class="content"> 
+                    <ol type="I">
+                        <li>Built an Online Examination - Test System' Project with 4 group members.</li>
+                        <li>Designed this website using Python, Pywebio, and Flask for deploying with the purpose of allowing the students/user to give test online and view their results of hands-on skills training and development of technical, verbal and problem-solving abilities.</li>
+                        <li>Built a bookstore website using HTML, CSS, JAVASCRIPT, Django Framework, and PostgreSQL. This resulted in a user-friendly front-end design and a structured database of books available in the store.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    
+        <!-- <div class="work__container bd-grid">
+            <a href="" class="work__img">
+                <img src="assets/img/work1.jpg" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work2.jpg" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work3.jpg" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work4.jpg" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work5.jpg" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work6.jpg" alt="">
+            </a>
+        </div> -->
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">          
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills</h2>
+                <p class="skills__text">With a strong base in Product Management and enhanced skills in analytics, entrepreneurship, and management from my master's program, I've honed the following professional skills:</p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">Operations Management</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">Microsoft Power BI</span>
+                    </div>
+                    <!-- <div class="skills__bar skills__html">
+
+                    </div> -->
+                    <!-- <div>
+                        <span class="skills__percentage">95%</span>
+                    </div> -->
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">Project Management</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name"> Ruby and Rails</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills__icon' ></i>
+                        <span class="skills__name">Process Planning</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">Data Analytics</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div>              
+                <img src="assets/img/work3.jpg" alt="" class="skills__img">
+            </div>
+        </div>
+    </section>
+
+    <!--=====Academics=====-->
+    <section class="work section" id="academics">
+        <h2 class="section-title">Academics</h2>
+        <div class="work__container bd-grid">
+            <div class="card">
+                <div class="work-name">
+                    <span>Dartmouth College</span>
+                    <span>Master of Engineering Management (M.E.M)</span>
+                </div>
+                <div class="acdemics_content"> 
+                    <span>A collaborative program taught by faculty from Thayer School of Engineering and Tuck School of Business.</span>
+                    <span>Courses:</span>
+                    <ul>
+                        <li>Data Analytics</li>
+                        <li>Marketing</li>
+                        <li>Product Design & Development</li>
+                        <li>Platforms</li>
+                        <li>Design Thinking</li>
+                        <li>Technical Project Management</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="work-name">
+                    <span>Pune University</span>
+                    <span>Bachelors of Engineering in Information Technology</span>
+                </div>
+                <div class="acdemics_content2"> 
+                    <span>Courses:</span>
+                    <ul>
+                        <li>Engineering Mathematics</li>
+                        <li>Business Analytics and Intelligence</li>
+                        <li>Intellectual Property Rights & Patenting</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures</li>
+                        <li>Data Analytics</li>
+                        <li>Entrepreneurship</li>
+                        <li>Database Management Systems</li>
+                        <li>Information and Cyber Security</li>
+                    </ul>
+                    <span class="heading">Research:</span>
+                    <span>Published research paper titled <strong>'Two Way Sign Language Translator'</strong> in IJRASET International Journal for Research in
+                        Applied Science and Engineering Technology in April 2022.</span>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+  
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/himani-without-blur.jpg" alt="">
+            </div>
+            
+            <div>
+                <h2 class="about__subtitle">I'am Himani</h2>
+                <span class="about__text">I am currently pursuing my Master's in Engineering Management [MEM] at Dartmouth!</span>
+                <p class="about__text">Also a graduate in Information Technology from Savitribai Phule Pune University, class of 2022.</p>           
+            </div>                                   
+        </div>
+    </section>
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <div class="home__data">
+                <h3 class="txt">Let's connect and explore opportunities for collaboration and growth. I am excited to engage with fellow professionals and contribute to the dynamic world of Engineering Management. Feel free to reach out — I look forward to connecting with you!</h1>
+
+                <a href="mailto:himani.u.gaikwad.th@dartmouth.edu" class="button email_btn">Email</a>
+            </div>
+            <!-- <form action="" class="contact__form">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                <input type="button" value="Enviar" class="contact__button button">
+            </form> -->
+        </div>
+    </section>
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer">
+    <p class="footer__title">Marlon</p>
+    <div class="footer__social">
+        <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+        <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+        <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
     </div>
+    <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+</footer>
+
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
